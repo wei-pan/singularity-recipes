@@ -21,7 +21,7 @@ From: ubuntu:18.04
     mkdir /firedrake && cd /firedrake;
     curl -O https://raw.githubusercontent.com/wei-pan/thetis/master/scripts/firedrake-install;
     python3 firedrake-install --install thetis --no-package-manager --disable-ssh;
-    source /firedrake/firedrake/bin/activate;
+    . /firedrake/firedrake/bin/activate;
     firedrake-update --documentation-dependencies --install gusto --install icepack --install pyadjoint
 
 
@@ -31,7 +31,6 @@ From: ubuntu:18.04
     Author Santiago Lacalle Puig
     Author_email slacalle@imperial.ac.uk
     Version v0.1
-    
     Wei Pan modified
     version v0.2
 
