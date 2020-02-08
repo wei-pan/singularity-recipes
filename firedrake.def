@@ -1,5 +1,5 @@
 BootStrap: docker
-From: ubuntu:16.04
+From: ubuntu:18.04
 
 %help
     Firedrake is an automated system for the portable solution of partial differential equations using the finite element method (FEM). Firedrake enables users to employ a wide range of discretisations to an infinite variety of PDEs and obtain high performance code on CPUs.
